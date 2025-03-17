@@ -12,12 +12,12 @@ export default function About() {
 
         <div className="w-full h-full grid md:grid-cols-2">
           <motion.div
-            className="md:w-[50vw] w-[70vw] flex flex-col justify-center  gap-5 items-center px-20 py-4 text-black"
+            className="md:w-[50vw] w-[70vw] flex flex-col justify-center  gap-5 items-center md:px-20 md:py-4 text-black"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2 }}
           >
-            <h1 className="md:text-4xl text-2xl font-bold text-black">ABOUT</h1>
+            <h1 className="md:text-4xl text-2xl font-bold text-black my-4 mt-4">ABOUT</h1>
             <span className="text-black md:text-left text-center text-sm leading-7">
               Welcome to <b className="text-brown">Fluffly N Stuff</b>, your ultimate destination for
               high-quality stuffed toys and plush creations! We are a passionate

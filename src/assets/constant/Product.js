@@ -7,8 +7,8 @@ import product5 from "../images/6.jpg";
 let PRICES = [
     { price: 2500 },
     { price: 4500 },
-    { price: 7200 },
     { price: 5000 },
+    { price: 7200 },
     { price: 9000 }
   ];
 
