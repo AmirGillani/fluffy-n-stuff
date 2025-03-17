@@ -10,7 +10,7 @@ export default function Footer() {
           FLUFFYN' STUFF - STUFFED WITH LOVE
         </span>
         <span className="text-white">
-          Copyright 2024 all rights reserved
+          Copyright 2025 all rights reserved
         </span>
       </div>
     </div>
