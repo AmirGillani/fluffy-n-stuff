@@ -27,10 +27,10 @@ let PRICES = [
 }
 
  export const PRODUCT = [
-  { size: "2.5 feet", price: PRICES[0].price, img:product1,discount:discounts[0].discount , afterDiscount:discounts[0].afterDiscount },
-  { size: "3.5 feet", price: PRICES[1].price, img:product2,discount:discounts[1].discount , afterDiscount:discounts[1].afterDiscount },
-  { size: "4 feet", price: PRICES[2].price, img:product3,discount:discounts[2].discount , afterDiscount:discounts[2].afterDiscount },
-  { size: "5.5 feet", price: PRICES[3].price, img:product4,discount:discounts[3].discount , afterDiscount:discounts[3].afterDiscount },
-  { size: "6 feet", price: PRICES[4].price, img:product5,discount:discounts[4].discount , afterDiscount:discounts[4].afterDiscount }
+  { type:"teddy",size: "2.5 feet", price: PRICES[0].price, img:product1,discount:discounts[0].discount , afterDiscount:discounts[0].afterDiscount },
+  { type:"teddy",size: "3.5 feet", price: PRICES[1].price, img:product2,discount:discounts[1].discount , afterDiscount:discounts[1].afterDiscount },
+  { type:"teddy",size: "4 feet", price: PRICES[2].price, img:product3,discount:discounts[2].discount , afterDiscount:discounts[2].afterDiscount },
+  { type:"teddy",size: "5.5 feet", price: PRICES[3].price, img:product4,discount:discounts[3].discount , afterDiscount:discounts[3].afterDiscount },
+  { type:"teddy",size: "6 feet", price: PRICES[4].price, img:product5,discount:discounts[4].discount , afterDiscount:discounts[4].afterDiscount }
 ];
 

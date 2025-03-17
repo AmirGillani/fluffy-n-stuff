@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import stars from "../assets/images/stars.png";
 import {motion} from "framer-motion"
 
-export default function Card({size,price,img,discount, afterDiscount}) {
+export default function Card({size,price,img,discount, afterDiscount,type}) {
 
     const [hovered, setHovered] = useState(false);
 
@@ -28,7 +28,7 @@ export default function Card({size,price,img,discount, afterDiscount}) {
        
       </div>
       <div className="h-[30%] flex flex-col justify-center items-center">
-        <span className="text-gray-500 text-xs underline">teddy</span>
+        <span className="text-gray-500 text-xs underline">{type}</span>
         <span className=" text-lg">{size}</span>
         <span className="text-green-500">{price}</span>
         <img src={stars} alt="stars" className="w-[50%] h-20" />
