@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <div className="shadow fixed top-0 left-0 right-0 z-30">
       <div className="bg-brown md:flex hidden justify-between px-20 py-2">
-        <div className="w-[30%] flex gap-3">
+        <div className="w-[30%] flex gap-3 justify-start items-center">
           <a href="https://www.facebook.com/FluffnStuff2">
             <FaFacebook
               className="text-white cursor-pointer hover:text-gray-200"

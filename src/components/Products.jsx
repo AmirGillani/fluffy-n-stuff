@@ -31,7 +31,7 @@ export default function Products() {
       className="w-full px-20 flex flex-col justify-center items-center py-10"
       id="product"
     >
-      <h2 className="font-bold text-4xl text-center mb-8">FEATURED PRODUCTS</h2>
+      <h2 className="font-bold text-4xl text-left w-[80%] mb-8">FEATURED PRODUCTS</h2>
       <h2 className="font-light text-sm w-[80%] leading-7 text-gray-900 text-left mb-8">
         At Fluffly N Stuff, we take pride in offering the softest and most
         adorable teddy bears, designed to be your perfect cuddle companion. Each
@@ -86,7 +86,7 @@ export default function Products() {
         </ul>
       </h2>
       <motion.div
-        className="grid md:grid-cols-4 gap-4 w-full h-auto"
+        className="grid md:grid-cols-3 gap-4 w-full h-auto"
         initial="hidden"
         whileInView="visible"
         variants={containerVarient}
