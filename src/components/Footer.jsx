@@ -1,8 +1,4 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { FaLocationDot } from "react-icons/fa6";
 import Contact from "./Contact";
 
 export default function Footer() {

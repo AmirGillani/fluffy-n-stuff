@@ -24,7 +24,7 @@ export default function Hero() {
             <span className="text-white md:text-left text-center">
               STUFFED WITH LOVE
             </span>
-            <a href="https://wa.me/+923224269380?text=Welcome To Fluffn' Stuff purchase quality teddy bear upto 20% off">
+            <a href="https://wa.me/+923224269380?text=Welcome%20To%20Fluffn%27%20Stuff%2C%20purchase%20quality%20teddy%20bears%20up%20to%2020%25%20off%21">
               <button className="bg-brown text-white p-4 font-bold tracking-widest cursor-pointer text-xs rounded-4xl hover:bg-white hover:border-2 hover:border-brown hover:text-brown">
                 Contact Now
               </button>
