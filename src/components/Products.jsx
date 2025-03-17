@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { PRODUCT } from "../assets/constant/Product";
+import product from "../assets/images/product.jpg";
 import { motion } from "framer-motion";
 export default function Products() {
   const containerVarient = {
@@ -42,6 +43,7 @@ export default function Products() {
         teddy bears come in 8 vibrant colors: <br />
         <br />
         <br />
+        <div className="grid md:grid-cols-[2fr_1fr] gap-4 w-full">
         <ul className="w-full text-left flex flex-col gap-2">
           <li>
             {" "}
@@ -84,9 +86,14 @@ export default function Products() {
             neutral and natural tone that’s as versatile as it is cute.
           </li>
         </ul>
+        <div className="w-full">
+          <img src={product} alt="about" className="w-48 border-4 border-white outline-4 outline-brown" />
+        </div>
+        </div>
+        
       </h2>
       <motion.div
-        className="grid md:grid-cols-3 gap-4 w-full h-auto"
+        className="grid md:grid-cols-3 gap-4 w-[80%] mt-8 m-auto h-auto"
         initial="hidden"
         whileInView="visible"
         variants={containerVarient}
