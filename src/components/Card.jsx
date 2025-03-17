@@ -7,7 +7,7 @@ export default function Card({size,price,img,discount, afterDiscount,type}) {
     const [hovered, setHovered] = useState(false);
 
   return (
-    <div className="flex flex-col md:h-[75vh] h-[45vh] gap-4 bg-white hover:shadow-2xl rounded-2xl cursor-pointer">
+    <div className="flex flex-col md:h-[75vh] h-[60vh] gap-4 bg-white hover:shadow-2xl rounded-2xl cursor-pointer">
       <div className="h-[70%] relative">
         <img
          onMouseEnter={()=>setHovered(true)} onMouseLeave={()=>setHovered(false)}
@@ -27,7 +27,7 @@ export default function Card({size,price,img,discount, afterDiscount,type}) {
         }
        
       </div>
-      <div className="h-[25%] flex flex-col justify-center items-center">
+      <div className="h-[30%] flex flex-col justify-center items-center">
         <span className="text-gray-500 text-xs underline">{type}</span>
         <span className=" text-lg">{size}</span>
         <span className="text-green-500">{price}</span>
