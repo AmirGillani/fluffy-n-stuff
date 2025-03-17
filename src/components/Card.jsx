@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import stars from "../assets/images/stars.png";
 import {motion} from "framer-motion"
 
-export default function Card({size,price,img,discount}) {
+export default function Card({size,price,img,discount, afterDiscount}) {
 
     const [hovered, setHovered] = useState(false);
 
@@ -22,7 +22,7 @@ export default function Card({size,price,img,discount}) {
             transition={{duration:0.5}}
             exit={{scaleY:0}}
             >
-            <span>{discount} RS AFTER 12 % DISCOUNT</span>
+            <span>{afterDiscount} RS AFTER {discount} % DISCOUNT</span>
           </motion.div>
         }
        

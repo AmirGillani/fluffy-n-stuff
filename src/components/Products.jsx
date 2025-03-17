@@ -3,7 +3,7 @@ import Card from "./Card";
 import { PRODUCT } from "../assets/constant/Product";
 export default function Products() {
   return (
-    <div className="w-full px-20 flex-col justify-center items-center py-10">
+    <div className="w-full px-20 flex-col justify-center items-center py-10" id="product">
       <h2 className="font-bold text-4xl text-center mb-8">FEATURED PRODUCTS</h2>
       <h2 className="font-medium text-lg text-gray-900 text-center mb-8">
         Each teddy bear is avaliable in 8 different colors which are
@@ -23,6 +23,7 @@ export default function Products() {
             price={product.price}
             img={product.img}
             discount={product.discount}
+            afterDiscount={product.afterDiscount}
           />
         ))}
       </div>
