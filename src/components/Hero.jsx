@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import HeroPic from "../assets/images/Hero.jpg";
+import HeroPic from "../assets/images/hero.jpg";
 import { motion } from "framer-motion";
 
 export default function Hero() {
