@@ -7,7 +7,7 @@ export default function Footer() {
       <Contact />
       <div className="bg-black px-20 py-4 flex md:flex-row flex-col gap-6 text-xs justify-center items-center w-full">
         <span className="text-white">
-          FLUFFYN' STUFF - STUFFED WITH LOVE
+          FLUFFN' STUFF - STUFFED WITH LOVE
         </span>
         <span className="text-white">
           Copyright 2025 all rights reserved

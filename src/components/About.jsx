@@ -28,7 +28,7 @@ export default function About() {
               ABOUT
             </h1>
             <span className="text-black md:text-left text-left text-sm leading-7">
-              Welcome to <b className="text-brown">Fluffly N Stuff</b>, your
+              Welcome to <b className="text-brown">Fluff N Stuff</b>, your
               ultimate destination for high-quality stuffed toys and plush
               creations! We are a passionate team dedicated to bringing joy and
               comfort through our carefully curated collection of adorable and
@@ -41,7 +41,7 @@ export default function About() {
               gifting, cuddling, or simply brightening up any room. Whether
               you're looking for a soft companion for a child or a unique plush
               to add to your collection,{" "}
-              <b className="text-brown">Fluffly N Stuff</b> has something for
+              <b className="text-brown">Fluff N Stuff</b> has something for
               everyone. Our toys are made with love, care, and the highest
               standards of quality, ensuring that every cuddle feels just right.
               Join us on this fluffy journey, and let us bring a smile to your

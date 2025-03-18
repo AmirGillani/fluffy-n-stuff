@@ -34,7 +34,7 @@ export default function Products() {
     >
       <h2 className="font-bold text-4xl text-left w-[80%] mb-8">FEATURED PRODUCTS</h2>
       <h2 className="font-light text-sm w-[80%] leading-7 text-gray-900 text-left mb-8">
-        At Fluffly N Stuff, we take pride in offering the softest and most
+        At Fluff N Stuff, we take pride in offering the softest and most
         adorable teddy bears, designed to be your perfect cuddle companion. Each
         teddy bear is crafted with love, ensuring a delightful and comforting
         experience with every hug. Whether you’re looking for a gift or simply
